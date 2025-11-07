@@ -16,13 +16,17 @@ A simple C library designed to help students learn C programming by providing ea
 #### Prerequisites
 - GCC compiler
 - Make utility
+- Git with SSH setup (required for cloning)
 
 #### Installation Steps
 
-1. Clone or download this repository:
+1. Clone this repository:
 ```bash
-cd /path/to/academy
+git clone git@github.com:funky-bois/academy.git
+cd academy
 ```
+
+**Note:** This repository uses SSH authentication. If you haven't set up SSH keys with GitHub, follow the [GitHub SSH setup guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
 2. Build the library:
 ```bash
@@ -58,6 +62,7 @@ Then run your program:
 #### Prerequisites
 - MinGW-w64 or TDM-GCC (for GCC on Windows)
 - Make utility (comes with MinGW)
+- Git with SSH setup (required for cloning)
 
 Or alternatively:
 - Visual Studio with C/C++ development tools
@@ -69,10 +74,13 @@ Or alternatively:
    - Download from [MinGW-w64](https://www.mingw-w64.org/) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/)
    - Add the `bin` directory to your PATH environment variable
 
-2. Open Command Prompt or PowerShell and navigate to the project:
+2. Clone this repository:
 ```cmd
-cd C:\path\to\academy
+git clone git@github.com:funky-bois/academy.git
+cd academy
 ```
+
+**Note:** This repository uses SSH authentication. If you haven't set up SSH keys with GitHub, follow the [GitHub SSH setup guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
 3. Build the library:
 ```cmd
@@ -94,7 +102,15 @@ test.exe
 sudo apt update
 sudo apt install build-essential
 ```
-4. Follow the Unix/Linux instructions above
+4. Clone the repository (requires SSH setup):
+```bash
+git clone git@github.com:funky-bois/academy.git
+cd academy
+```
+
+**Note:** If you haven't set up SSH keys with GitHub, follow the [GitHub SSH setup guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+
+5. Follow the Unix/Linux instructions above
 
 #### Option 3: Manual Compilation (Without Make)
 
