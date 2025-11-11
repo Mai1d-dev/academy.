@@ -2,6 +2,19 @@
 
 Use this generic workflow for all lectures/assignments. Replace placeholders with your own details.
 
+## Fork the Repository
+
+- Navigate to the repository on [GitHub](https://github.com/funky-bois/academy).
+- Click the "Fork" button in the top-right corner of the page.
+- Select your GitHub account as the destination for the fork.
+- Wait for GitHub to create your fork (this takes a few seconds).
+- Clone your forked repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/academy.git
+cd repository-name
+```
+
 ## Branch Naming
 
 - Create a new branch for each lecture.
